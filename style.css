@@ -1,0 +1,18 @@
+body {
+  background: url(images/gtr.jpg);
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 600px;
+  background-size: contain;
+}
+.strings {
+  margin-top: 160px;
+}
+
+.string {
+  background-color: aliceblue;
+  width: 20px;
+  height: 60px;
+  border: 1px black solid;
+  margin: 15px;
+}
