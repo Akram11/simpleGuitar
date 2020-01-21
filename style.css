@@ -8,11 +8,31 @@ body {
 .strings {
   margin-top: 160px;
 }
+ 
+.strings p {
+    color: white;
+    margin-left: 2px;
+    font-size: 18px;
+  }
+
+  .strings kbd {
+    color:black;
+    padding: 4px;
+    background-color: white;
+  }
+
+
 
 .string {
-  background-color: aliceblue;
   width: 20px;
   height: 60px;
-  border: 1px black solid;
+  border: 4px rgb(211, 103, 2) solid;
   margin: 15px;
+  transition:all 0.09s;
+  text-shadow: 0 0 5px black
 }
+.playing{
+    transform: scale(1.1);
+    border-color:  rgb(240, 255, 35);
+    box-shadow: 0 0 10px #ffc600;
+  }
